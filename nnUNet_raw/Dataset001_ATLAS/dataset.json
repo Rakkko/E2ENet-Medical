@@ -1,0 +1,45 @@
+{
+"description": "ATLAS challenge train dataset",
+"labels": {
+    "0": "background",
+    "1": "liver",
+    "2": "tumour"
+},
+"licence": "CC BY-NC-SA 4.0",
+"modality": {
+    "0": "T1w"
+},
+"name": "cgfl",
+"numTest": 0,
+"numTraining": 5,
+"reference": "Vanderbilt University",
+"release": "14/04/2023",
+"tensorImageSize": "3D",
+"validation": [
+],
+"training": [
+    {
+        "image": "imagesTr/im0.nii.gz",
+        "label": "labelsTr/lb0.nii.gz"
+    },
+    {
+        "image": "imagesTr/im1.nii.gz",
+        "label": "labelsTr/lb1.nii.gz"
+    },
+    {
+        "image": "imagesTr/im2.nii.gz",
+        "label": "labelsTr/lb2.nii.gz"
+    },
+    {
+        "image": "imagesTr/im3.nii.gz",
+        "label": "labelsTr/lb3.nii.gz"
+    },
+    {
+        "image": "imagesTr/im4.nii.gz",
+        "label": "labelsTr/lb4.nii.gz"
+    }
+]
+}
+
+
+
